@@ -1,0 +1,74 @@
+.navbar {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 50;
+    top: 0;
+    right: 50;
+    height: 100px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 16px;
+}
+.content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/bgr1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+}
+.ordertitel {
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+.order {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+.noodle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Economica', sans-serif;
+}
+.broth {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Economica', sans-serif;
+}
+.toppings {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Economica', sans-serif;
+}
+.menutitel {
+    display: flex;
+    justify-content: center;
+    font-family: 'Economica', sans-serif;
+}
+.menue {
+    background-image: url(img/background.jpg);
+    background-position: center;
+}
+.tonkasu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
