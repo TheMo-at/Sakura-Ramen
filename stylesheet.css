@@ -26,10 +26,12 @@ a {
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    font-size: 100px;
 }
 h2 {
     font-family: 'Economica', sans-serif;
     font-weight: bold;
+    font-size: 30px;
 }
 .content1 {
     display: flex;
@@ -95,6 +97,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     font-family: Economica, sans-serif;
+    font-size: 20px;
 }
 .table {
     display: flex;
