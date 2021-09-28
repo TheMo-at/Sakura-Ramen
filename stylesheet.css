@@ -9,6 +9,7 @@
     right: 50px;
     height: 100px;
     text-decoration: none;
+    font-weight: bold;
 }
 .menu {
     display: flex;
@@ -21,6 +22,14 @@ a {
     margin-right: 19px;
     text-decoration: none;
     color: white;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+h2 {
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
 }
 .content1 {
     display: flex;
@@ -76,15 +85,15 @@ a {
 .menubackground {
     display: flex;
     background-image: url(img/background.jpg);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 15px;
     flex-direction: column;
+    height: auto;
 }
 .tonkasu {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     font-family: Economica, sans-serif;
 }
 .table {
@@ -113,4 +122,21 @@ a {
 .tablebild3 {
     display: flex;
     justify-content: left;
+}
+.findus {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.headline {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.adresse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: raleway, sans-serif;
+    margin-block-end: 50px;
 }
