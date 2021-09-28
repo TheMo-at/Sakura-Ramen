@@ -69,13 +69,48 @@ a {
     justify-content: center;
     font-family: 'Economica', sans-serif;
 }
-.menue {
+.gerichte {
+    display: flex;
+    justify-content: center;
+}
+.menubackground {
+    display: flex;
     background-image: url(img/background.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+    flex-direction: column;
 }
 .tonkasu {
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-family: Raleway , sans-serif;
+    font-family: Economica, sans-serif;
+}
+.table {
+    display: flex;
+    justify-content: right;
+    margin-left: 50px;
+}
+.table1 {
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+}
+.table2 {
+    display: flex;
+    justify-content: right;
+    margin-left: 50px;
+}
+.tablebild {
+    display: flex;
+    justify-content: left;
+}
+.tablebild2 {
+    display: flex;
+    justify-content: right;
+}
+.tablebild3 {
+    display: flex;
+    justify-content: left;
 }
