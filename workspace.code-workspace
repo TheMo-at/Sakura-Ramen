@@ -7,5 +7,7 @@
 			"path": "../../../TschenrechnerNeu/Ramen Webseite"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Sakura-Ramen"
+	}
 }
